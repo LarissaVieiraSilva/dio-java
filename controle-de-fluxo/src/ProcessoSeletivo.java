@@ -1,4 +1,4 @@
-package candidatura;
+//package candidatura;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
@@ -32,7 +32,7 @@ public class ProcessoSeletivo {
 	
 	//método auxiliar
 	static boolean atender() {
-		return new Random().nextInt(3)==1;	
+		return new Random().nextInt(3)==1;
 	}
 	
 	

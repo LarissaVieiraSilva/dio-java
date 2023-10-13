@@ -32,7 +32,7 @@ public class ProcessoSeletivo {
 	
 	//método auxiliar
 	static boolean atender() {
-		return new Random().nextInt(3)==1;	
+		return new Random().nextInt(3)==1;
 	}
 	
 	
@@ -51,7 +51,7 @@ public class ProcessoSeletivo {
 			System.out.println("O candidato selecionado foi " + candidato);
 		}
 			
-	}	
+	}
 		
 	static void selecaoCandidatos() {
 		// Array com a lista de candidatos
@@ -74,7 +74,7 @@ public class ProcessoSeletivo {
 	}
 	
 	static double valorPretendido() {
-	     return ThreadLocalRandom.current().nextDouble(1800, 2200);
+	    return ThreadLocalRandom.current().nextDouble(1800, 2200);
 	}
 		
 	
